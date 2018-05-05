@@ -1,0 +1,19 @@
+{
+  "name": "react-redux-login",
+  "version": "1.0.0",
+  "description": "Login page built with React, Redux, and styled-components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewlarry/react-redux-login.git"
+  },
+  "author": "Andrew Fuselier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewlarry/react-redux-login/issues"
+  },
+  "homepage": "https://github.com/andrewlarry/react-redux-login#readme"
+}
