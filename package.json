@@ -4,7 +4,9 @@
   "description": "Login page built with React, Redux, and styled-components.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:dev": "webpack --env dev --progress --colors",
+    "build:prod": "webpack --env prod --progress --colors",
+    "dev": "webpack-dev-server --open --inline --hot --no-info --env dev"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,25 @@
   "bugs": {
     "url": "https://github.com/andrewlarry/react-redux-login/issues"
   },
-  "homepage": "https://github.com/andrewlarry/react-redux-login#readme"
+  "homepage": "https://github.com/andrewlarry/react-redux-login#readme",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.4",
+    "babel-preset-env": "1.6.1",
+    "css-loader": "0.28.11",
+    "mini-css-extract-plugin": "0.4.0",
+    "style-loader": "0.21.0",
+    "uglifyjs-webpack-plugin": "1.2.5",
+    "webpack": "4.6.0",
+    "webpack-cli": "2.1.2",
+    "webpack-dev-server": "3.1.4"
+  },
+  "dependencies": {
+    "babel-preset-react": "6.24.1",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-router-dom": "4.2.2",
+    "save-dev": "2.0.0",
+    "styled-components": "3.2.6"
+  }
 }
