@@ -5,7 +5,7 @@ import {
   Switch
 } from 'react-router-dom';
 
-import Login from './components/Login';
+import Login from './Login';
 
 // import { AppProvider, AppConsumer } from './AppContext';
 

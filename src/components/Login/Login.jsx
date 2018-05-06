@@ -9,7 +9,7 @@ import {
   PasswordInput,
   Button,
   SubmitButton,
-} from './LoginStyles';
+} from './Login.styles';
 
 // import { AppConsumer } from '../../AppContext';
 import Input from './Input.jsx';

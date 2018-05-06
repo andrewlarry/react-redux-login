@@ -5,7 +5,7 @@ import {
   PasswordInput,
   SubmitButton,
   SubmitBox,
-} from './InputStyles';
+} from './Input.styles';
 
 const Input = (props) => {
   let inputBox;
