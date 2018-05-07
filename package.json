@@ -31,6 +31,9 @@
     "webpack-dev-server": "3.1.4"
   },
   "dependencies": {
+    "@hixme-ui/container": "1.16.5",
+    "@hixme-ui/theme": "1.15.0",
+    "@hixme-ui/title": "1.16.1",
     "babel-preset-react": "6.24.1",
     "react": "16.3.2",
     "react-dom": "16.3.2",
@@ -38,6 +41,7 @@
     "react-router-dom": "4.2.2",
     "redux": "4.0.0",
     "redux-logger": "3.0.6",
+    "redux-saga": "0.16.0",
     "redux-thunk": "2.2.0",
     "save-dev": "2.0.0",
     "styled-components": "3.2.6"
