@@ -1,3 +1,2 @@
-import { alertActions } from './alert.actions.js';
-
-export { alertActions };
+export * from './alert.actions';
+export * from './login.actions';

@@ -7,24 +7,17 @@ import {
   SubmitBox,
   TextInput,
   PasswordInput,
-  Button,
   SubmitButton,
+  Button
 } from './Login.styles';
 
-// import { AppConsumer } from '../../AppContext';
 import Input from './Input.jsx';
 
+
+let test = true;
 const Login = (props) => {
   return (
-    <LoginContainer>
-      {/* <LoginBox signup={!props.state.loginView}>
-        <ButtonBox>
-          <Button primary={context.state.loginView} onClick={() => context.toggleLogin(true)}>Login</Button>
-          <Button primary={!context.state.loginView} onClick={() => context.toggleLogin(false)}>Sign up</Button>
-        </ButtonBox>
-        <Input login={context.state.loginView}/>
-      </LoginBox> */}
-    </LoginContainer>
+    <LoginContainer />
   );
 };
 

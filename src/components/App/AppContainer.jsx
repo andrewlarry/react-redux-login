@@ -1,20 +1,16 @@
 import React from 'react';
-import { ThemeProvider } from '@hixme-ui/theme'
-import Container from '@hixme-ui/container'
-import Title from '@hixme-ui/title'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-export default AppContainer = (props) => {
-  console.log('propspropspropspropspropspropspropspropsprops');
+import { Container } from './App.styles';
+
+const AppContainer = (props) => {
   return (
-    <ThemeProvider>
-      <Container padding='10px'>
-        <Title jumbo primary>Welcome to your App</Title>
-
-        <Container background='#efefef'>
-          This is going to be a fun ride
-          {props.children}
-        </Container>
+    <MuiThemeProvider>
+      <Container>
+        {props.children}
       </Container>
-    </ThemeProvider>
+    </MuiThemeProvider>
   )
 }
+
+export default AppContainer;

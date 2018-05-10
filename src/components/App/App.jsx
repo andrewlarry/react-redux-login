@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import AppContainer from './AppContainer.jsx';
 import {
   BrowserRouter as Router,
@@ -10,14 +10,15 @@ import Login from '../Login';
 
 // import { AppProvider, AppConsumer } from './AppContext';
 
-const App = (props) => (
-  <AppContainer>
-    <Router>
-      <Switch>
-        <Route exact path="/" component={Login} />
-      </Switch>
-    </Router>
-  </AppContainer>
-);
-
+const App = (props) => {
+  return (
+    <AppContainer>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Login} />
+        </Switch>
+      </Router>
+    </AppContainer>
+  );
+}
 export default App;

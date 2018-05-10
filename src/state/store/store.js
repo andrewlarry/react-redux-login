@@ -4,7 +4,7 @@ import { createLogger } from 'redux-logger';
 // import rootReducer from '../_reducers';
 
 // So React webpack won't break
-const rootReducer = {};
+const rootReducer = () => 'hello world';
 
 const loggerMiddleware = createLogger();
 

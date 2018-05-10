@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import { store } from './state/store'
 import App from './components/App';
 
+import './styles.css';
 // Overwrites the window.fetch method so that fetch calls are routed 
 // to local storage.
 import { configureFakeBackend } from '../utils';
